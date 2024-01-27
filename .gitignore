@@ -1,0 +1,39 @@
+# Ignoruj pliki i katalogi generowane przez środowiska programistyczne i narzędzia budowania
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.bak
+
+# Ignoruj pliki zależności i katalogi z kodem źródłowym projektu
+.venv/
+env/
+*.env
+*.egg-info/
+.idea/
+
+# Ignoruj katalogi z plikami statycznymi i plikami do przechowywania mediów
+static/
+media/
+
+# Ignoruj plik z danymi konfiguracyjnymi
+config.json
+
+# Ignoruj pliki środowiskowe
+.env
+
+# Ignoruj pliki tymczasowe
+*.swp
+*.swo
+
+# Ignoruj pliki z hasłami lub kluczami prywatnymi
+*.pem
+*.key
+
+# Ignoruj pliki bazy danych
+*.db
+*.sqlite
+*.sqlite3
